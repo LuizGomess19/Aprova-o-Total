@@ -329,6 +329,10 @@ section { padding: 100px 0; }
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 1rem;
 }
+.testimonial-avatar-img {
+  width: 48px; height: 48px; border-radius: 50%;
+  object-fit: cover; border: 2px solid rgba(255,255,255,0.1);
+}
 .testimonial-name { font-weight: 600; font-size: 0.95rem; }
 .testimonial-role { font-size: 0.8rem; color: var(--text-secondary); }
 
